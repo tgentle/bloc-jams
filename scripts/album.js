@@ -61,7 +61,7 @@ var createSongRow = function(songNumber, songName, songLength){
 
 // #1
     var albumTitle = document.getElementsByClassName('album-view-title')[0];
-    var albumArtist = documment.getElementsByClassName('album-view-artist')[0];
+    var albumArtist = document.getElementsByClassName('album-view-artist')[0];
     var albumReleaseInfo = document.getElementsByClassName('album-view-release-info')[0];
     var albumImage = document.getElementsByClassName('album-cover-art').addEventListener ('click', function(){ setCurrentAlbum();})[0];
     var albumSongList = document.getElementsByClassName('album-view-song-list')[0];
