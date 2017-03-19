@@ -146,3 +146,5 @@ albumImage.addEventListener("click", function(event){
         index = 0;
     }
 });
+//this is the end
+console.log ("hello");
